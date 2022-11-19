@@ -26,8 +26,8 @@ export default function Home() {
         <Image
           src="/assets/logo/main.svg"
           alt="Tukkit logo"
-          width={40}
-          height={40}
+          width={30}
+          height={30}
         />
       </header>
       <main className={styles.main}>
