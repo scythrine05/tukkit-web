@@ -1,14 +1,22 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+
+:root {
+  --background: #18191a;
+  --text-color: #ffffff;
+  --text-color-secondary: #7e7e7e;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 * {
@@ -20,7 +28,6 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    background: var(--background);
   }
 }
