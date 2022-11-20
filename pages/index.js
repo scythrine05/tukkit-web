@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -59,8 +60,10 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
         <div>
-          <a> Terms and Services</a>
-          <a> Privacy </a>
+          <Link href="/assets/docs/terms-and-conditions.pdf">
+            Terms and Conditions
+          </Link>
+          <Link href="/assets/docs/privacy-policy.pdf"> Privacy </Link>
         </div>
       </footer>
     </div>
