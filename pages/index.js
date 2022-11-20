@@ -36,7 +36,7 @@ export default function Home() {
             Latest Business <br /> and Startup news
           </h1>
           <p className={styles.content_small}>
-            Get updates on all sort startup and business related news in one
+            Get updates on all sort of startup and business related news in one
             swipe instantly
           </p>
           <a>
