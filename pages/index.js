@@ -23,12 +23,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
-        <Image
-          src="/assets/logo/main.svg"
-          alt="Tukkit logo"
-          width={30}
-          height={30}
-        />
+        <a>
+          <Image
+            src="/assets/logo/main.svg"
+            alt="Tukkit logo"
+            width={30}
+            height={30}
+          />
+        </a>
       </header>
       <main className={styles.main}>
         <div className={styles.content}>
@@ -39,14 +41,14 @@ export default function Home() {
             Get updates on all sort of startup and business related news in one
             swipe instantly
           </p>
-          <a>
+          <Link href="https://play.google.com/store/apps/details?id=com.tukkit">
             <Image
               src="/assets/badges/google-play.png"
               alt="Google-Play"
               width={200}
               height={80}
             />
-          </a>
+          </Link>
         </div>
         <div className={styles.images}>
           <Image
