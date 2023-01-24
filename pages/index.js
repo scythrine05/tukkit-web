@@ -54,18 +54,18 @@ export default function Home() {
           <Image
             src="/assets/images/main.png"
             alt="main"
-            width={550}
-            height={750}
+            width={350}
+            height={550}
             className={styles.main_img}
           />
         </div>
       </main>
       <footer className={styles.footer}>
         <div>
-          <Link href="/assets/docs/terms-and-conditions.pdf">
+          <Link href="/assets/docs/terms-and-conditions.html">
             Terms and Conditions
           </Link>
-          <Link href="/assets/docs/privacy-policy.pdf"> Privacy </Link>
+          <Link href="/assets/docs/privacy-policy.html"> Privacy </Link>
         </div>
       </footer>
     </div>
