@@ -41,13 +41,16 @@ export default function Home() {
             Get updates on all sort of startup and business related news in one
             swipe instantly
           </p>
-          <Link href="https://play.google.com/store/apps/details?id=com.tukkit">
-            <Image
-              src="/assets/badges/google-play.png"
-              alt="Google-Play"
-              width={200}
-              height={80}
-            />
+          <Link href="/files/tukkit-android.apk" download>
+            <div className={styles.download_button}>
+              Download now
+              <Image
+                src="/assets/logo/android.png"
+                alt="main"
+                width={40}
+                height={40}
+              />
+            </div>
           </Link>
         </div>
         <div className={styles.images}>

@@ -14,6 +14,11 @@
   justify-content: space-around;
   align-items: center;
 }
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 .content_large {
   font-size: 50px;
@@ -27,6 +32,27 @@
   object-fit: contain;
   width: 100%;
   height: auto;
+}
+
+.download_button {
+	background: rgba(222, 113, 82, 1);
+	border-radius: 0.2em;
+  font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	display: flex;
+	margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+	padding: 0.5em 1em;
+	transition: all 0.3s linear;
+	width: 13em;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-tap-highlight-color: transparent;
+  font-weight: 100;
 }
 
 .footer {
@@ -59,6 +85,7 @@
     padding: 2em 0;
   }
   .content {
+    align-items: center;
     text-align: center;
   }
   .content_large {
